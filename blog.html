@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div>
+           <h1>Our World Class Online Programs and Certificates</h1>
+        </div>      
+    </section>
+
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/blog.jpg" alt="">
+                <h2>Our Online Courses</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem esse ducimus laboriosam reprehenderit sequi voluptas exercitationem eaque nesciunt odio maiores placeat, pariatur facilis tenetur necessitatibus nemo blanditiis recusandae commodi soluta cumque! Assumenda tempore soluta veritatis eaque? Nihil, at, vero ipsum labore autem vel reiciendis error consequatur maxime tenetur sed commodi.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero iusto perferendis inventore neque error expedita eligendi deleniti recusandae corrupti veritatis.</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe magnam consequuntur animi quidem ipsam recusandae eius voluptatem corporis modi qui ex officiis nemo velit assumenda eligendi est corrupti itaque dolor exercitationem soluta deserunt, hic adipisci fugiat? Nemo adipisci, perferendis porro beatae sit, quibusdam quas accusantium enim at delectus dolor omnis dolores numquam, cupiditate aperiam architecto doloribus earum maxime? Minima laudantium praesentium unde accusamus numquam vero pariatur rem ipsa maxime vel! Eum, voluptas deleniti! Fuga, soluta consectetur libero est deleniti nostrum quibusdam necessitatibus, cumque vero odit nihil accusantium quae odio laudantium placeat iusto culpa illum at labore facilis, suscipit veritatis earum!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem corrupti alias architecto officia, neque similique ex iure beatae consectetur ut!</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hr-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analysis</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Engineering</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Autocad</span>
+                    <span>14</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Ph D</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>27</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat impedit distinctio suscipit possimus, <br>accusamus perferendis beatae corporis sint. Pariatur voluptatum inventore culpa, <br>ea dolorem consequuntur ullam explicabo odit animi est?</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://bd.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Made By<i class="fa-solid fa-heart"></i> NAR-SAD-ISP Batch 3</p>
+    </section>
+
+    <script>
+        var navLinks=document.getElementById('navLinks');
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px"; 
+        }
+    </script>
+
+</body>
+</html>
